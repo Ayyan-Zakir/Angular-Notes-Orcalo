@@ -1,0 +1,7 @@
+1- make a folder with a same name of component.
+2- in that folder make HTML file and add all the relevant HTML  in that file.
+3- in the same folder make TS file and import COMPONENT, pass a JS object to @Component with selector: "", templateURL:""
+4- selector means that HTML tag from which you'll target that component, template URL is used to make a link towards HTML.
+5- After that export that CLASS, with export class personalComponent.
+6- Add that class into relevant module file, under declartions.
+7- Use that component through it's selector HTML tag name in any HTML file.

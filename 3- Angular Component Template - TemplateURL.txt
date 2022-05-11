@@ -1,0 +1,2 @@
+1- If you want to use external HTML file then type TEMPLATE URL.
+2- if you want to in-line HTML for shorter code then use TEMPLATE with ``, same thing.

@@ -1,0 +1,10 @@
+1-     12th May, 2022
+		
+i) Components
+ii) Nest Components
+iii) Template / TemplateURL
+iv)  Selectors (Direct, Attribute, Class)
+v) String, Property & Event Binding
+vi) Passing and Using data with Event Binding
+
+---------------------------------------------------------------

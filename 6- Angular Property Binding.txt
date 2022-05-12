@@ -1,0 +1,17 @@
+1- Like string you can bind any property of any tag with a function / method, like if you want to set a time interval of a button for being enabled and disabled.
+2- in TS file, in export class, first select the default value you want out side the constructor and then in the constructor the set interval to change the value after some time and 
+after that in HTML file 
+you can bind a property by covering it in [propertyName]="methodName".
+for eg
+TS:
+currentBtnStatus = false;
+
+    constructor(){
+        setTimeout(() => {
+        return this.currentBtnStatus = true;
+        }, 2000);
+    }
+
+
+Html :
+<button class="btn btn-warning" [disabled]="!currentBtnStatus">Click Me</button>

@@ -1,0 +1,11 @@
+1- Whenever you try to send data, it should be a string or anything which can be converted into string.
+2- in export class server {
+		serveriD = 10;
+		serverStatus = 'Offline';
+}
+3- In HTML file, add these variables in {{ serveriD }} to show your data dynamically.
+4- If there's a function / method then :  serverStatusMethod(){
+        return this.serverStatus;
+    }
+
+5- In HTML file {{ serverStatusMethod() }}

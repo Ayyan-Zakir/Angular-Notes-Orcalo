@@ -1,0 +1,28 @@
+1- Directives are instructions in DOM.
+2- *ngIf, it changes the structure so it's a structural directive, It needs a boolean to work.
+3- it's basically a IF statement and it will show something when it will get a value of true.
+4- by default the method after *ngIf will be false, and after a method it will become a true and relevent item will pop up in the DOM.
+
+<p *ngIf="serverCreation">Server was created and server name is {{serverName}}</p>
+
+ serverCreation = false;
+
+    updateServerStatus(){
+        this.serverCreation = true;
+        return this.serverStatus = "Online"
+    }
+
+serverCreation was false by default so after a click on button, it becomes true and the P will popup.
+
+
+if you want to use else, then you can add another ngif with ! with it.
+best way is to add *ngIf="serverCreation"; else elseStatement, you can use any name for this else flag.
+then in else you have to make a ng-template tag with #elseStatement, FLAG NAME, and write your code into it.
+
+
+<p *ngIf="serverCreation; else elseStatement">Server was created and server name is {{serverName}}</p>
+<ng-template #elseStatement>
+<p>
+    No server was created.
+</p>
+</ng-template>

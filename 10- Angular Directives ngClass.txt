@@ -1,0 +1,31 @@
+1- ngClass, property binding.
+will add a class into if there's any condition.
+
+
+<p [ngClass]="{online : serverStatus === 'online'}">The server id is {{serverId}} & the current status is {{serverStatus}}</p>
+
+  styles:[`
+        .online {
+        color: red;
+        background-color: green;
+        }
+    `]
+
+
+  serverStatus = 'offline';
+
+   
+    currentBtnStatus = true;
+
+    constructor(){
+        setTimeout(() => {
+            return this.currentBtnStatus = false;
+        }, 2000);
+    }
+    serverName = "Test";
+    serverCreation = false;
+
+    updateServerStatus(){
+        this.serverCreation = true;
+        return this.serverStatus = "online"
+    }

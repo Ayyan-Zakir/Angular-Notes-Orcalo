@@ -1,0 +1,8 @@
+1- ngFor is the For loop in angular
+2- It needs an Array.  users = [
+        {id : 1, firstName: 'Akbar'},{id : 2, firstName: 'Ahmad'},{id : 3, firstName: 'Kabeer'},
+    ]
+
+3- then you've to add it as a attribute, select a parameter name and then bind the data with that parameter.objectKey
+
+<p *ngFor="let user of users">Id is {{user.id}} & first name is {{user.firstName}}</p>

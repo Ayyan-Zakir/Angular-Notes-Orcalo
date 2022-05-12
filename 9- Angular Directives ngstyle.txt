@@ -1,0 +1,4 @@
+1- to use [ngStyle]="{'color':'red', 'background-color':bgVal}"
+
+2- ngStyle is assigned a property binding by [], then there's JS object with key & value
+3- Use a variable for dynamic value.

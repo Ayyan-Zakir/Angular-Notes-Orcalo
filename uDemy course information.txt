@@ -1,0 +1,21 @@
+               Understanding                      Practise
+
+
+Section 1      	√                                    √
+
+Section 2 	√				     X
+
+-nG series practise is left.
+
+
+
+Section 3       X                                    X
+
+
+Section 4       √ 				     √	
+
+Section 5       X				     X	
+
+Services & Dependency Injection       X
+Routing    X
+Observable X
